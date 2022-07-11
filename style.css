@@ -1,0 +1,707 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.header{
+    padding-top: 18px;
+    padding-bottom: 17.29px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.menu{
+    display: flex;  
+}
+.nav{
+    display: flex;
+    align-items: center;
+}
+.menuLi{
+    padding-left: 60px;
+    list-style-type: none;
+    font-size: 15px;
+    color: #272727;
+    font-family: 'Shippori Antique', sans-serif;
+}
+.hxum{
+    font-size: 15px;
+    color: #272727;
+    font-family: 'Shippori Antique', sans-serif;
+    text-decoration: none;
+}
+
+.ourStory{
+    background-image: url("img/image.png");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ourStoryText{
+    display: inline-block;
+    width:  45.5vw;
+    color: #fff;
+    text-align: center;
+    font-family: 'Shippori Antique', sans-serif;
+}
+
+.ourStoryTextiVernagriCHap{
+    font-size: 32px;
+}
+
+.ourStoryTextiCHap{
+    font-size: 14px;
+    text-transform: capitalize;
+    opacity: 1;
+    padding-top: 12px;
+}
+
+.gndikner{
+    display: flex;
+    position: absolute;
+}
+
+.gndik{
+    background-color: #fff;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    position: relative;
+    top: 131px;
+    margin-left: 4px;
+}
+
+.ourStoryLogo{
+    position: absolute;
+    bottom: -67px;
+}
+.menuAndOurTeam{
+    background-color: #101010;
+    height: 200vh;
+}
+
+.dzaxSlaq,.ajSlaq{
+    position: absolute;
+}
+.karavarum{
+    position: relative;
+    bottom: 7vh;
+    right: 41.3vw;
+}
+.karavarum2{
+    position: relative;
+    bottom: 7vh;
+    left: 41.3vw;
+    transform:rotate(180deg)
+}
+.menuByuti{
+    color: #fff;
+    text-align: center;
+    padding-top: 4.9vh;
+    font-size: 12px;
+    font-weight: normal;
+    font-family: "Yu Gothic";
+}
+.menuVernagir{
+    color: #fff;
+    text-align: center;
+    font-size: 32px;
+    font-weight: normal;
+    padding-top: 6px;
+}
+.koxiNkar{
+    display: flex;
+    justify-content: space-between;
+}
+.leftImg{
+    background-image: url("img/Mask\ Group\ 50.png");
+    width: 170px;
+    height: 91.2vh;
+    position: relative;
+    top: 83.68vh;
+}
+.rigthImg{
+    background-image: url("img/Mask\ Group\ 49.png");
+    width: 30.7vw;
+    height: 48.5vw;
+    position: relative;
+    top: 242px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.baguetteMenuNkar{
+    position: absolute;
+}
+.glavniNkar{
+    background-image: url("img/Breakfast image.png");
+    width: 72vw;
+    height: 40vh;
+    position: relative;
+    bottom: 94.08vh;
+    left: 13.8vw;
+    color:#fff;
+    font-weight: bold;
+    font-family: 'Shippori Antique', sans-serif;
+    font-size: 18px;
+    background-repeat: no-repeat;
+    background-size: 120% 120%;
+    transition: 0.8s;
+}
+
+.glavniNkar:hover{
+    background-color: #101010;
+    opacity: 0.6;
+    background-size: 100% 100%;
+    background-position: center;
+    width: 72vw;
+    height: 40vh;
+    transition: 0.8s;
+    background-position: center;
+}
+
+.glavniNkarVerna{
+    position: relative;
+    top: 34.48vh;
+    left: 2vw;
+    transition: 1s;
+}
+
+.glavniNkar:hover .glavniNkarVerna{
+    top: 17.48vh;
+    transition: 1s;    
+}
+
+
+
+.glavniNkariText{
+    opacity: 0;
+    font-size: 14px;
+    font-weight: lighter;
+    position: relative;
+    left: 2vw;
+    width: 44vw;
+    top: 19vh;
+    transition: 1s;
+}
+
+
+.glavniNkar:hover .glavniNkariText{
+    opacity: 1;
+    transition: 1s;
+}
+
+.gridNkarContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 25px;
+    position: relative;
+    bottom: 90.08vh;
+    left: 13.8vw;
+    
+}
+
+.gridNkar1:hover{
+    background-color: #101010;
+    opacity: 0.6;
+    width: 23vw;
+    height: 40.16vh;
+    background-size: 100% 100%;
+    background-position: center;
+    transition: 0.8s;
+}
+.gridNkar2:hover{
+    background-color: #101010;
+    opacity: 0.6;
+    width: 23vw;
+    height: 40.16vh;
+    background-size: 100% 100%;
+    background-position: center;
+    transition: 0.8s;
+}
+.gridNkar3:hover{
+    background-color: #101010;
+    opacity: 0.6;
+    width: 23vw;
+    height: 40.16vh;
+    background-size: 100% 100%;
+    background-position: center;
+    transition: 0.8s;
+}
+.gridNkar4:hover{
+    background-color: #101010;
+    opacity: 0.6;
+    width: 23vw;
+    height: 40.16vh;
+    background-size: 100% 100%;
+    background-position: center;
+    transition: 0.8s;
+}
+.gridNkar5:hover{
+    background-color: #101010;
+    opacity: 0.6;
+    width: 23vw;
+    height: 40.16vh;
+    background-size: 100% 100%;
+    background-position: center;
+    transition: 0.8s;
+}
+.gridNkar6:hover{
+    background-color: #101010;
+    opacity: 0.6;
+    width: 23vw;
+    height: 40.16vh;
+    background-size: 100% 100%;
+    background-position: center;
+    transition: 0.8s;
+}
+.gridNkar1{
+    background-image: url("img/Viennoiserle image.png");
+    width: 23vw;
+    height: 40.16vh;
+    color: #fff;
+    font-weight: bold;
+    font-family: 'Shippori Antique', sans-serif;
+    font-size: 18px;       
+    background-repeat: no-repeat;
+    background-size: 120% 120%;
+    transition: 0.8s;
+}
+
+.gridNkar2{
+    background-image: url("img/AND_1522.png");
+    width: 23vw;
+    height: 40.16vh;
+    color: #fff;
+    font-weight: bold;
+    font-family: 'Shippori Antique', sans-serif;
+    font-size: 18px; 
+    background-repeat: no-repeat;
+    background-size: 120% 120%;
+    transition: 0.8s;
+}
+.gridNkar3{
+    background-image: url("img/AND_1959.png");
+    width: 23vw;
+    height: 40.16vh;
+    color: #fff; 
+    font-weight: bold;
+    font-family: 'Shippori Antique', sans-serif;
+    font-size: 18px;
+    background-repeat: no-repeat;
+    background-size: 120% 120%;
+    transition: 0.8s;
+}
+.gridNkar4{
+    background-image: url("img/ola-dybul-q2djeWt5k-8-unsplash.png" );
+    width: 23vw;
+    height: 40.16vh;
+    color: #fff; 
+    font-weight: bold;
+    font-family: 'Shippori Antique', sans-serif;
+    font-size: 18px;
+    background-repeat: no-repeat;
+    background-size: 120% 120%;
+    transition: 0.8s;
+}
+.gridNkar5{
+    background-image: url("img/AND_1944.png");
+    width: 23vw;
+    height: 40.16vh;
+    color: #fff; 
+    font-weight: bold;
+    font-family: 'Shippori Antique', sans-serif;
+    font-size: 18px;
+    background-repeat: no-repeat;
+    background-size: 120% 120%;
+    transition: 0.8s;
+}
+.gridNkar6{
+    background-image: url("img/AND_1911-2.png");
+    width: 23vw;
+    height: 40.16vh;
+    color: #fff; 
+    font-weight: bold;
+    font-family: 'Shippori Antique', sans-serif;
+    font-size: 18px;
+    background-repeat: no-repeat;
+    background-size: 120% 120%;
+    transition: 0.8s;
+}
+.gridNkarVerna1{
+    position: relative;
+    top: 34vh;
+    left: 2vw;
+    transition: 1s;
+}
+.gridNkar1:hover .gridNkarVerna1{
+    top: 14vh;
+    transition: 1s;
+}
+.gridNkarVerna2{
+    position: relative;
+    top: 34vh;
+    left: 2vw;
+    transition: 1s;
+}
+
+.gridNkar2:hover .gridNkarVerna2{
+    top: 14vh;
+    transition: 1s;
+}
+.gridNkarVerna3{
+    position: relative;
+    top: 34vh;
+    left: 2vw;
+    transition: 1s;
+}
+.gridNkar3:hover .gridNkarVerna3{
+    top: 14vh;
+    transition: 1s;
+}
+
+.gridNkarVerna4{
+    position: relative;
+    top: 34vh;
+    left: 2vw;
+    transition: 1s;
+}
+.gridNkar4:hover .gridNkarVerna4{
+    top: 14vh;
+    transition: 1s;
+}
+.gridNkarVerna5{
+    position: relative;
+    top: 34vh;
+    left: 2vw;
+    transition: 1s;
+}
+.gridNkar5:hover .gridNkarVerna5{
+    top: 14vh;
+    transition: 1s;
+}
+.gridNkarVerna6{
+    position: relative;
+    top: 34vh;
+    left: 2vw;
+    transition: 1s;
+}
+.gridNkar6:hover .gridNkarVerna6{
+    top: 14vh;
+    transition: 1s;
+}
+.gridNkarText1,.gridNkarText2,.gridNkarText3,.gridNkarText4,.gridNkarText5,.gridNkarText6{
+    opacity: 0;
+    font-size: 12px;
+    font-weight: normal;
+    font-family: "Yu Gothic";
+    color: #fff;
+    width: 20vw;
+    position: relative;
+    left: 2vw;
+    top: 15vh;
+    transition: 1s;
+}
+.gridNkar1:hover .gridNkarText1{
+    opacity: 1;
+    transition: 1s;
+}
+.gridNkar2:hover .gridNkarText2{
+    opacity: 1;
+    transition: 1s;
+}
+.gridNkar3:hover .gridNkarText3{
+    opacity: 1;
+    transition: 1s;
+}
+.gridNkar4:hover .gridNkarText4{
+    opacity: 1;
+    transition: 1s;
+}
+.gridNkar5:hover .gridNkarText5{
+    opacity: 1;
+    transition: 1s;
+}
+.gridNkar6:hover .gridNkarText6{
+    opacity: 1;
+    transition: 1s;
+}
+.ourTema{
+    background-image: url("img/Mask\ Group\ 56.png");
+    width: 98.7vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+}
+.bacFon{
+    background-color: #101010;
+    width: 80.9vw;
+    height: 90.8vh;
+    opacity: 0.8;
+
+}
+.ourTeamNkar{
+    display: flex;
+    justify-content: flex-end;
+}
+.ourTeamNkar2{
+    position: relative;
+    top: 17.28vh;
+    height: 66.88vh;
+    width: 12.4vw;
+}
+.Nkar{
+    width: 12.4vw;
+    height: 73.6vh;
+    position: relative;
+    top: -15vh;
+}
+.ourTeamText{
+    text-align: center;
+    color: #fff;
+}
+
+.ourTemaByuti{
+    font-size: 12px;
+    font-weight: normal;
+    font-family: "Yu Gothic";
+    position: relative;
+    top: 17.28vh;
+}
+.ourTemaVernagir{
+    font-size: 32px;
+    font-weight: normal;
+    position: relative;
+    top: 17.64vh;
+}
+.ourTemaByuti2{
+    font-size: 12px;
+    font-weight: normal;
+    font-family: "Yu Gothic";
+    width: 45.53vw;
+    position: relative;
+    left: 16vw;
+    top: 24vh;
+}
+.ourTemaKojak{
+    position: relative;
+    top: 34vh;
+    padding: 15px 64px;
+}
+.branches{
+    background-color: black; 
+}
+/* ------------------- Conctact ------------------------- */
+.contact{
+    padding-left: 27vw;
+    padding-right: 27vw;
+}
+.branchesp,.contactHeader{
+    font-size: 12px;
+    font-weight: normal;
+    font-family: "Yu Gothic";
+    color: #fff;
+    text-align: center;
+    padding-top: 59px;
+}
+.branchesVernagir,.contactvernagir{
+    font-weight: normal;
+    font-family: 'Shippori Antique', sans-serif;
+    color: #fff;
+    text-align: center;
+}
+.qartez{
+    padding-top: 48px;
+    display: flex;
+    justify-content: center;
+}
+.branchesGridCont{
+    display: flex;
+    justify-content: center;
+}
+.nkarTun{
+    padding-top: 24px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.gridContText1,.gridContText2,.gridContText3{
+    color: #fff;
+}
+.gridContentTent{
+    display: flex;
+    justify-content: space-evenly;
+}
+.gridContText1{
+    position: relative;
+    right: 6vw;
+    font-size: 12px;
+    font-weight: normal;
+    font-family: "Yu Gothic";
+}
+.gridContText2{
+    position: relative;
+    right: 7vw;
+    font-size: 12px;
+    font-weight: normal;
+    font-family: "Yu Gothic";
+    padding-bottom: 84px;
+}
+.gridContText3{
+    position: relative;
+    right: 7vw;
+    font-size: 12px;
+    font-weight: normal;
+    font-family: "Yu Gothic";
+}
+.contactvernagir,.contactHeader{
+    color: #000;
+}
+.inputs{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 55.34px;
+}
+.glxavoInput{
+    width: 50%;
+}
+.inputAnun,.inputAzganun,.mailAdd{ 
+    font-size: 16px;
+    font-weight: normal;
+    font-family: "Yu Gothic";
+}
+.anun,.azganun{
+    padding: 10px 57px;
+    border:solid 1px #96004B ;
+    border-radius: 2px;
+
+}
+
+.mail{
+    padding: 10px 0px;
+    border:solid 1px #96004B ;
+    border-radius: 2px;
+
+}
+.inputEmail,.coment{
+    padding-top: 53px;
+}
+.mail{
+    width: 100%;
+}
+
+.comentUser{
+    width: 45vw;
+    height: 18vh;
+    border:solid 1px #96004B;  
+    border-radius: 2px;
+}
+.comentVernagir{ 
+    font-size: 16px;
+    font-weight: normal;
+    font-family: "Yu Gothic";
+}
+.planetKojak{ 
+    padding: 15px 64px;
+    background-color: #fff;
+    border: solid 1px #000;
+}
+.planet{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 48px;
+}
+
+.phon{
+    font-size: 14px;
+    font-weight: normal;
+    font-family: "Yu Gothic";
+}
+.nuber{
+    font-size: 16px;
+    font-weight: normal;
+    font-family: "Yu Gothic";
+}
+.telephon{
+    position: relative;
+    right: 25px;
+    bottom: 35px;
+    padding-bottom: 89px;
+}
+.footer{
+    background-color: #272727;
+    width: 98.7vw;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.FooterMenu{
+    display: flex;  
+}
+.FooterNav{
+    display: flex;
+    align-items: center;
+}
+.fMenuLi{
+    padding-left: 60px;
+    list-style-type: none;
+    font-size: 15px;
+    color: #fff;
+    font-family: 'Shippori Antique', sans-serif;
+}
+.insta,.face{
+    padding-left: 24px;
+}
+.footerik{
+    background-color: #7B6E6A;
+    width: 98.7vw;   
+}
+.footerikText{
+    font-size: 14px;
+    font-weight: normal;
+    font-family: "Yu Gothic";
+    color: #fff;
+    text-align: center;
+}
+
+.modal{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    background-color: rgb(0, 0, 0, 0.8);
+    top: 0;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+}
+.modalBody{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 10px;
+}
+.modalCont{
+    background-color: #fff;
+    color:#000;
+    max-width: 80vw;
+    padding: 30px;
+    position: relative;
+}
+.modaClose{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-size: 20px;
+    color: #000;
+    text-decoration: none;
+}
+.text{
+    width: 500px;   
+}
+.title{
+    font-size: 20px;
+}
